@@ -1,0 +1,25 @@
+.hoteles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.Error {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20%;
+  color: white;
+  background-color: #b8baff;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "IBM Plex Sans", sans-serif;
+  box-shadow: -2px -1px 29px -5px rgb(141 134 134 / 31%);
+}
+.sad {
+  font-size: 60px;
+}

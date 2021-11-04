@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+span {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  padding: 7px;
+}
+.filtros {
+  width: 100%;
+  background-color: rgba(7, 145, 155, 0.849);
+  height: 70px;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.fechas {
+  border: none;
+  padding: 0.5em 0;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.select {
+  border: none;
+  padding: 0.5em 0;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.limpiar {
+  border: none;
+  color: #ffffff;
+  background-color: #95b0b2;
+  border-radius: 3px;
+  box-shadow: -2px -1px 29px -5px rgba(141, 134, 134, 0.31);
+  margin-left: 10px;
+  width: 150px;
+}
